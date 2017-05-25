@@ -10,11 +10,32 @@ using System.Windows.Forms;
 
 namespace GestBanque
 {
-    public partial class Form1 : Form
+    public partial class Menu : Form
     {
-        public Form1()
+        public Menu()
         {
             InitializeComponent();
+        }
+
+        private void mAJComptesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MAJComptes M = new MAJComptes();
+            M.ShowDialog();
+
+        }
+
+        private void chercherCompteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ChercherComptes CC = new ChercherComptes();
+            CC.ShowDialog();
+
+        }
+
+        private void clientToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AfficherClient CC = new AfficherClient();
+            CC.ShowDialog();
+
         }
     }
 }
