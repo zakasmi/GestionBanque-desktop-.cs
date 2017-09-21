@@ -1,5 +1,5 @@
-this is a small project about Bank accounts Managment 
-Features of this Projects : 
+this is a small Project about Bank accounts Management 
+Features of this Project : 
 - Add , edit , delete , Save , bank accounts
 - Navigation buttons , 
 - Connected Mode Model . 
